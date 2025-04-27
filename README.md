@@ -47,4 +47,4 @@ We discovered the importance of meticulous planning and the benefits of collabor
 
 ## Future Plans
 
-We're looking forward to enhancing CapybaraTherapy¿s features and usability, ensuring it¿s a helpful resource for students preparing for finals and other high-pressure times.
+We're looking forward to enhancing CapybaraTherapy's features and usability, ensuring it's a helpful resource for students preparing for finals and other high-pressure times.
