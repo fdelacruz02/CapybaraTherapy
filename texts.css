@@ -1,0 +1,17 @@
+#ChatDisplay .response {
+    background-color: lightgreen;
+    align-self: flex-start;
+    padding: 8px 12px;
+    margin: 5px;
+    border-radius: 8px;
+    max-width: 70%;
+}
+
+#ChatDisplay .input {
+    background-color: lightblue;
+    align-self: flex-end;
+    padding: 8px 12px;
+    margin: 5px;
+    border-radius: 8px;
+    max-width: 70%;
+}

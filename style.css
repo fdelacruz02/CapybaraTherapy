@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    font-family: "Montserrat", "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+#leftPart {
+    background-color: lightblue;
+    padding: 20px;
+    overflow: auto;
+}
+#emotion_img {
+    width: 100%; 
+    height: auto;
+    display: block; 
+}
+
+#rightPart {
+    display: flex;
+    flex-direction: column;
+    background-color: #f5f5f5;
+    padding: 20px;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+#ChatDisplay {
+    flex: 1;
+    overflow-y: auto;
+    margin-bottom: 10px;
+    background-color: white;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+#Input {
+    display: flex;
+    gap: 10px;
+}
+
+#inputText {
+    flex: 1;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+#sendButton {
+    padding: 10px 20px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#sendButton:hover {
+    background-color: #45a049;
+}
